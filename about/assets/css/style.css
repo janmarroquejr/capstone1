@@ -1,15 +1,83 @@
-.container{
-	border: 1px solid blue;
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+	background-image: url(assets/images/curry7.jpeg);
 }
 
-.col-md-8{
-	border: 1px solid red;
+.navbar{
+	background-color: #d8d8d8;
 }
 
-.col-md-4{
-	border: 1px solid black;
+.navbar-brand{
+	font-family: 'Anton', sans-serif;
 }
 
-.card{
-	border: 1px solid red;
+.btn-search{
+	color: #000000;
+}
+
+.social-links{
+	/*text-align: center;*/
+	font-size: 2.5rem;
+}
+
+.fa-facebook-square{
+	color: #3b5998;
+}
+
+.fa-gitlab{
+	color: #FC6D27;
+}
+
+
+.fa-instagram{
+	color: #E4405F;
+}
+
+.fa-twitter{
+	color: #1da1f2;
+}
+
+
+.foot{
+	background-color: #D8D8D8;
+	opacity: 60%;
+}
+
+.about-us{
+	/*border: 1px solid red;*/
+	height: auto;
+	position: relative;
+	padding: 10% 10%;
+}
+
+
+
+
+@media only screen and (max-width: 375px){
+	footer span{
+		font-size: 50%;
+	}
+
+	.social-links{
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	footer span{
+		font-size: 75%;
+	}
+
+	footer{
+		clear: both;
+		position: relative;
+		margin-top: 400px;
+	}
+
+	.social-links{
+		font-size: 2rem;
+	}
 }

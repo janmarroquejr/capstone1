@@ -20,13 +20,9 @@
 }
 
 
-.footer{
-	background-color: #ffffea;
-}
-
 .social-links{
 	/*text-align: center;*/
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
 
 .fa-facebook-square{
@@ -39,6 +35,10 @@
 
 .fa-instagram{
 	color: #E4405F;
+}
+
+.fa-twitter{
+	color: #1da1f2;
 }
 
 .carousel-item img{
@@ -59,6 +59,20 @@
 
 .btn-search{
 	color: #000000;
+}
+
+.foot{
+	background-color: #D8D8D8;
+	opacity: 60%;
+}
+
+.welcome-image{
+	min-height: 400px;
+	clear: both;
+}
+
+.welcome-message{
+	margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 375px){
