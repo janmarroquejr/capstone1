@@ -1,0 +1,88 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
+}
+
+.navbar{
+	background-color: #d8d8d8;
+}
+
+.navbar-brand{
+	font-family: 'Anton', sans-serif;
+}
+
+.carousel{
+	/*background: linear-gradient(#38BBC3, #35938B);*/
+	opacity: 100%;
+	height: auto;
+}
+
+
+.footer{
+	background-color: #ffffea;
+}
+
+.social-links{
+	/*text-align: center;*/
+	font-size: 3rem;
+}
+
+.fa-facebook-square{
+	color: #3b5998;
+}
+
+.fa-gitlab{
+	color: #FC6D27;
+}
+
+.fa-instagram{
+	color: #E4405F;
+}
+
+.carousel-item img{
+	max-width: 70%;
+	max-height: 70%;
+	margin: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    /*background-size: 100%, 100%;*/
+    border-radius: 50%;
+    /*border: 1px solid black;*/
+}
+
+.btn-search{
+	color: #000000;
+}
+
+@media only screen and (max-width: 375px){
+	footer span{
+		font-size: 50%;
+	}
+
+	.social-links{
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	footer span{
+		font-size: 75%;
+	}
+
+	footer{
+		clear: both;
+		position: relative;
+		margin-top: 400px;
+	}
+
+	.social-links{
+		font-size: 2rem;
+	}
+}
