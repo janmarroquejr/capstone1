@@ -1,15 +1,117 @@
-.container{
-	border: 1px solid blue;
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
 }
 
-.col-md-8{
-	border: 1px solid red;
+/*navbar and footer*/
+
+.navbar{
+	background-color: #d8d8d8;
 }
 
-.col-md-4{
-	border: 1px solid black;
+.navbar-brand{
+	font-family: 'Anton', sans-serif;
 }
 
-.card{
-	border: 1px solid red;
+
+.fa-facebook-square{
+	color: #3b5998;
+	font-size: 20px;
+}
+
+.fa-gitlab{
+	color: #FC6D27;
+	font-size: 20px;
+}
+
+.fa-instagram{
+	color: #E4405F;
+	font-size: 20px;
+}
+
+.fa-twitter{
+	color: #1da1f2;
+	font-size: 20px;
+}
+
+.foot{
+	background-color: #D8D8D8;
+	opacity: 80%;
+	height: auto;
+}
+
+.carousel-inner img{
+	max-width: 650px;
+	max-height: 326px;
+	margin: 0 auto;
+}
+
+.carousel{
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	background-color: #000;
+	opacity: 70%;
+	width: 650px;
+	height: 326px;
+}
+
+.carousel-caption{
+	color: white;
+  	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+/*end of navbar and footer style*/
+
+@media only screen and (max-width: 376px){
+	footer span{
+		font-size: 50%;
+	}
+
+	.social-links{
+		font-size: 10px;
+	}
+
+	.carousel-caption{
+		display: none;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		height: 30px;
+		width: 30px;
+		outline: black;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 50%;
+	}
+}
+
+@media only screen and (max-width: 414px){
+	footer span{
+		font-size: 50%;
+	}
+
+	.social-links{
+		font-size: 10px;
+	}
+}
+
+
+}
+
+@media only screen and (max-width: 768px){
+	footer span{
+		font-size: 75%;
+	}
+
+	footer{
+		clear: both;
+		position: relative;
+		/*margin-top: 400px;*/
+	}
+
+	.social-links{
+		font-size: 2rem;
+	}
 }

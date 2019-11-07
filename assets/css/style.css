@@ -94,6 +94,10 @@
 	color: black;
 }
 
+.message-2{
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
 @media only screen and (max-width: 376px){
 	footer span{
 		font-size: 50%;
