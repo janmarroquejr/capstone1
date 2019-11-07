@@ -1,15 +1,143 @@
-.container{
-	border: 1px solid blue;
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
 }
 
-.col-md-8{
-	border: 1px solid red;
+/*navbar and footer style*/
+
+.navbar{
+	background-color: #d8d8d8;
 }
 
-.col-md-4{
-	border: 1px solid black;
+.navbar-brand{
+	font-family: 'Anton', sans-serif;
 }
 
-.card{
-	border: 1px solid red;
+
+.fa-facebook-square{
+	color: #3b5998;
+	font-size: 20px;
 }
+
+.fa-gitlab{
+	color: #FC6D27;
+	font-size: 20px;
+}
+
+.fa-instagram{
+	color: #E4405F;
+	font-size: 20px;
+}
+
+.fa-twitter{
+	color: #1da1f2;
+	font-size: 20px;
+}
+
+.foot{
+	background-color: #D8D8D8;
+	opacity: 80%;
+	height: auto;
+}
+
+/*end of navbar and footer style*/
+
+.img-box{
+	max-width: 66vh;
+	max-height: 480px;
+	/*overflow: auto;*/
+	padding: 1rem 1rem;
+	/*border: 1px solid red;*/
+}
+
+.line-2, .line-2, .line-3{
+	padding-bottom: 3rem;
+}
+
+
+
+/*@media only screen and (max-width: 376px){
+	footer span{
+		font-size: 50%;
+	}
+
+	.social-links{
+		font-size: 10px;
+	}
+
+	.img-box{
+		max-width: 100%; 
+		max-height: 100%;
+		display: block;
+		padding: 1rem;
+		border: 1px solid blue;
+
+		padding: 1rem 1rem;
+	
+	}
+
+	.resize-me{
+	
+		border: 1px solid red;
+	}
+
+	}*/
+
+	@media only screen and (max-width: 420px){
+
+		footer span{
+			font-size: 50%;
+		}
+
+		.social-links{
+			font-size: 10px;
+		}
+
+		.resize-me .img-box{
+			max-width: 100%;
+			max-height: 100%;
+			/*overflow: auto;*/
+			padding: 1rem 1rem;
+			/*border: 1px solid red;*/
+
+		}
+
+		.resize-me{
+			height: 200px;
+			width: 300px;
+			margin: 0 auto;
+		}
+	}
+
+	@media only screen and (max-width: 768px){
+
+		footer span{
+			font-size: 75%;
+		}
+
+		footer{
+			clear: both;
+			position: relative;
+			/*margin-top: 400px;*/
+		}
+
+		.social-links{
+			font-size: 2rem;
+		}
+
+		.resize-me .img-box{
+			max-width: 100%;
+			max-height: auto;
+			padding: 1rem 1rem;
+		}
+	}
+
+	@media only screen and (max-width: 800px){
+		.img-box{
+			max-width: 100%;
+			max-height: auto;
+			padding: 1rem 1rem;
+		}
+	}

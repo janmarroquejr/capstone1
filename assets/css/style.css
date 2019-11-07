@@ -5,6 +5,8 @@
 	font-family: 'Dosis', sans-serif;
 }
 
+/*navbar and footer*/
+
 .navbar{
 	background-color: #d8d8d8;
 }
@@ -13,6 +15,36 @@
 	font-family: 'Anton', sans-serif;
 }
 
+
+.fa-facebook-square{
+	color: #3b5998;
+	font-size: 20px;
+}
+
+.fa-gitlab{
+	color: #FC6D27;
+	font-size: 20px;
+}
+
+.fa-instagram{
+	color: #E4405F;
+	font-size: 20px;
+}
+
+.fa-twitter{
+	color: #1da1f2;
+	font-size: 20px;
+}
+
+.foot{
+	background-color: #D8D8D8;
+	opacity: 80%;
+	height: auto;
+}
+
+/*end of navbar and footer style*/
+
+
 .carousel{
 	/*background: linear-gradient(#38BBC3, #35938B);*/
 	opacity: 100%;
@@ -20,26 +52,6 @@
 }
 
 
-.social-links{
-	/*text-align: center;*/
-	font-size: 2.5rem;
-}
-
-.fa-facebook-square{
-	color: #3b5998;
-}
-
-.fa-gitlab{
-	color: #FC6D27;
-}
-
-.fa-instagram{
-	color: #E4405F;
-}
-
-.fa-twitter{
-	color: #1da1f2;
-}
 
 .carousel-item img{
 	max-width: 70%;
@@ -47,42 +59,78 @@
 	margin: auto;
 }
 
+.resize-me{
+	opacity: 80%;
+}
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-color: rgba(0, 0, 0, 0.3);
-    /*background-size: 100%, 100%;*/
-    border-radius: 50%;
-    /*border: 1px solid black;*/
+	height: 100px;
+	width: 100px;
+	outline: black;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
 }
 
 .btn-search{
 	color: #000000;
 }
 
-.foot{
-	background-color: #D8D8D8;
-	opacity: 60%;
-}
+
 
 .welcome-image{
 	min-height: 400px;
 	clear: both;
+	/*filter: blur(20px);
+	-webkit-filter: blur(20px)	;*/
 }
 
 .welcome-message{
 	margin-bottom: 100px;
+	padding: 0 20%;
 }
 
-@media only screen and (max-width: 375px){
+.carousel-caption{
+	z-index: 99;
+	color: black;
+}
+
+@media only screen and (max-width: 376px){
 	footer span{
 		font-size: 50%;
 	}
 
 	.social-links{
-		font-size: 1rem;
+		font-size: 10px;
 	}
+
+	.carousel-caption{
+		display: none;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		height: 30px;
+		width: 30px;
+		outline: black;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 50%;
+	}
+}
+
+@media only screen and (max-width: 414px){
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		height: 30px;
+		width: 30px;
+		outline: black;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 50%;
+	}
+
+	.carousel-caption{
+		display: none;
+	}
+}
+
+
 }
 
 @media only screen and (max-width: 768px){
@@ -93,7 +141,7 @@
 	footer{
 		clear: both;
 		position: relative;
-		margin-top: 400px;
+		/*margin-top: 400px;*/
 	}
 
 	.social-links{

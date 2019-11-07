@@ -14,36 +14,31 @@
 	font-family: 'Anton', sans-serif;
 }
 
-.btn-search{
-	color: #000000;
-}
-
-.social-links{
-	/*text-align: center;*/
-	font-size: 2.5rem;
-}
 
 .fa-facebook-square{
 	color: #3b5998;
+	font-size: 20px;
 }
 
 .fa-gitlab{
 	color: #FC6D27;
+	font-size: 20px;
 }
-
 
 .fa-instagram{
 	color: #E4405F;
+	font-size: 20px;
 }
 
 .fa-twitter{
 	color: #1da1f2;
+	font-size: 20px;
 }
-
 
 .foot{
 	background-color: #D8D8D8;
-	opacity: 60%;
+	opacity: 80%;
+	height: auto;
 }
 
 .about-us{
@@ -74,8 +69,17 @@
 	footer{
 		clear: both;
 		position: relative;
-		margin-top: 400px;
+		/*margin-top: 400px;//*/
 	}
+
+	.about-us{
+	/*border: 1px solid red;*/
+	height: auto;
+	width: auto;
+	position: relative;
+	padding: 10% 10%;
+}
+
 
 	.social-links{
 		font-size: 2rem;

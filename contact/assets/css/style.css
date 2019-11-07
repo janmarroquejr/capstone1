@@ -1,15 +1,181 @@
-.container{
-	border: 1px solid blue;
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Dosis', sans-serif;
 }
 
-.col-md-8{
-	border: 1px solid red;
+/*navbar and footer*/
+
+.navbar{
+	background-color: #d8d8d8;
 }
 
-.col-md-4{
-	border: 1px solid black;
+.navbar-brand{
+	font-family: 'Anton', sans-serif;
 }
 
-.card{
-	border: 1px solid red;
+
+.fa-facebook-square{
+	color: #3b5998;
+	font-size: 20px;
+}
+
+.fa-gitlab{
+	color: #FC6D27;
+	font-size: 20px;
+}
+
+.fa-instagram{
+	color: #E4405F;
+	font-size: 20px;
+}
+
+.fa-twitter{
+	color: #1da1f2;
+	font-size: 20px;
+}
+
+.foot{
+	background-color: #D8D8D8;
+	opacity: 80%;
+	height: auto;
+}
+
+textarea{
+	resize: none;
+}
+
+/*end of navbar and footer style*/
+
+.contact-form, .contact-info{
+	margin-top: 25vh;
+}
+
+.contact-info div h2{
+	padding-bottom: 60px;
+	float-left;
+}
+
+.contact-info div h4{
+	font-size: 15px;
+	padding-bottom: 85px;
+}
+
+@media only screen and (max-width: 376px){
+	
+	footer span{
+		font-size: 50%;
+	}
+
+	.social-links{
+		font-size: 10px;
+	}
+
+	.contact-info{
+		height: 200px;
+	}
+
+	.contact-icon{
+		/*border: 1px solid red;*/
+		width:auto;
+		height: 200px;
+	}
+
+	.contact-icon h2{
+		padding-bottom: 20px;
+		height: 71px;
+	}
+
+	.contact-manual{
+		/*float: right;*/
+		width: 250px;
+		height: 10px;
+	}
+
+	.contact-manual h4{
+		padding-bottom: 50px;
+		margin: 0 auto;
+		height: 1px;
+		/*border: 1px solid red;*/
+		display: inline-block;
+	}
+
+	.contact-form, .contact-info{
+		margin-top: 5vh;
+	}
+}
+
+
+
+@media only screen and (max-width: 415px){
+	footer span{
+		font-size: 50%;
+	}
+
+	.social-links{
+		font-size: 10px;
+	}
+
+	.contact-info{
+		height: 200px;
+	}
+
+	.contact-icon{
+		/*border: 1px solid red;*/
+		width:auto;
+		height: 200px;
+	}
+
+	.contact-icon h2{
+		padding-bottom: 20px;
+		height: 71px;
+	}
+
+	.contact-manual{
+		/*float: right;*/
+		width: 250px;
+		height: 10px;
+	}
+
+	.contact-manual h4{
+		padding-bottom: 50px;
+		margin: 0 auto;
+		height: 1px;
+		/*border: 1px solid red;*/
+		display: inline-block;
+	}
+
+	.contact-form, .contact-info{
+		margin-top: 5vh;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+
+	footer span{
+		font-size: 75%;
+	}
+
+	footer{
+		clear: both;
+		position: relative;
+		/*margin-top: 400px;*/
+	}
+
+	.social-links{
+		font-size: 2rem;
+	}
+
+	.contact-manual h4{
+		padding-bottom: 65px;
+		margin: 0 auto;
+		/*border: 1px solid red;*/
+	}
+
+	i{
+		font-size: 18px;
+	}
+
 }
