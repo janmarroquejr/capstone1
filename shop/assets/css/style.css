@@ -42,28 +42,19 @@
 	height: auto;
 }
 
-.carousel-inner img{
-	max-width: 650px;
-	max-height: 326px;
-	margin: 0 auto;
-}
-
-.carousel{
-	margin: 0 auto;
-	/*border: 1px solid red;*/
-	background-color: #000;
-	opacity: 70%;
-	width: 650px;
-	height: 326px;
-}
-
-.carousel-caption{
-	color: white;
-  	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
 
 
 /*end of navbar and footer style*/
+
+.card{
+	width: 15rem;
+	max-height: 336px;
+}
+
+.card img{
+		height: 180px;
+		width: auto;
+}
 
 @media only screen and (max-width: 376px){
 	footer span{
@@ -74,8 +65,56 @@
 		font-size: 10px;
 	}
 
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		height: 30px;
+		width: 30px;
+		outline: black;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 50%;
+	}
+
+	.carousel-inner img{
+		max-width: 325px;
+		max-height: 162px;
+		margin: 0 auto;
+	}
+
+	.carousel{
+		margin: 0 auto;
+		/*border: 1px solid red;*/
+		background-color: #000;
+		opacity: 70%;
+		width: 325px;
+		height: 162px;
+	}
+
 	.carousel-caption{
-		display: none;
+		color: white;
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		font-size: 12px;
+	}
+
+	.card{
+		margin: 1rem auto;
+	}
+
+	.card img{
+		height: 200px;
+		width: auto;
+	}
+}
+
+
+
+
+
+@media only screen and (max-width: 576px){
+	footer span{
+		font-size: 50%;
+	}
+
+	.social-links{
+		font-size: 10px;
 	}
 
 	.carousel-control-prev-icon, .carousel-control-next-icon {
@@ -85,17 +124,34 @@
 		background-color: rgba(0, 0, 0, 0.3);
 		border-radius: 50%;
 	}
-}
 
-@media only screen and (max-width: 414px){
-	footer span{
-		font-size: 50%;
+	.carousel-inner img{
+		max-width: 325px;
+		max-height: 162px;
+		margin: 0 auto;
 	}
 
-	.social-links{
-		font-size: 10px;
+	.carousel{
+		margin: 0 auto;
+		/*border: 1px solid red;*/
+		background-color: #000;
+		opacity: 70%;
+		width: 325px;
+		height: 162px;
+	}
+
+	.carousel-caption{
+		color: white;
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		font-size: 12px;
+	}
+
+	.card{
+		margin: 1rem auto;
+		height: 360px;
 	}
 }
+
 
 
 }
