@@ -48,7 +48,7 @@
 
 .card{
 	width: 15rem;
-	max-height: 336px;
+	max-height: 350px;
 }
 
 .card img{
@@ -198,5 +198,39 @@
 
 	.social-links{
 		font-size: 2rem;
+	}
+
+		.carousel-control-prev-icon, .carousel-control-next-icon {
+		height: 30px;
+		width: 30px;
+		outline: black;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 50%;
+	}
+
+	.carousel-inner img{
+		max-width: 325px;
+		max-height: 162px;
+		margin: 0 auto;
+	}
+
+	.carousel{
+		margin: 0 auto;
+		/*border: 1px solid red;*/
+		background-color: #000;
+		opacity: 70%;
+		width: 325px;
+		height: 162px;
+	}
+
+	.carousel-caption{
+		color: white;
+		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		font-size: 12px;
+	}
+
+	.card{
+		margin: 1rem auto;
+		height: 360px;
 	}
 }
