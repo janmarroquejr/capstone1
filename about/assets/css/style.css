@@ -48,6 +48,10 @@
 	padding: 10% 10%;
 }
 
+.search-bar, .btn-search{
+	border-radius: 50px;
+}
+
 
 
 

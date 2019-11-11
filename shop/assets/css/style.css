@@ -56,6 +56,10 @@
 		width: auto;
 }
 
+.search-bar, .btn-search{
+	border-radius: 50px;
+}
+
 @media only screen and (max-width: 376px){
 	footer span{
 		font-size: 50%;

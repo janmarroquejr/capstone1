@@ -64,6 +64,18 @@
 	font-weight: lighter;
 }
 
+.co-btn{
+	border-radius: 50px;
+}
+
+.remove-btn{
+	color: red;
+}
+
+.search-bar, .btn-search{
+	border-radius: 50px;
+}
+
 
 
 @media only screen and (max-width: 376px){

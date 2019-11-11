@@ -48,6 +48,10 @@ textarea{
 
 /*end of navbar and footer style*/
 
+.search-bar, .btn-search{
+	border-radius: 50px;
+}
+
 .contact-form, .contact-info{
 	margin-top: 25vh;
 }

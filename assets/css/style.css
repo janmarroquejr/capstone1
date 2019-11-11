@@ -44,6 +44,10 @@
 
 /*end of navbar and footer style*/
 
+.search-bar, .btn-search{
+	border-radius: 50px;
+}
+
 
 .carousel{
 	/*background: linear-gradient(#38BBC3, #35938B);*/
