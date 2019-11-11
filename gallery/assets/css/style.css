@@ -44,16 +44,16 @@
 
 /*end of navbar and footer style*/
 
-.img-box{
-	max-width: 66vh;
-	max-height: 480px;
+.resize-me .img-box{
+	max-width: 100%;
+	max-height: 100%;
 	/*overflow: auto;*/
-	padding: 1rem 1rem;
+	padding: 0.5rem 0.5rem;
 	/*border: 1px solid red;*/
 }
 
-.line-2, .line-2, .line-3{
-	padding-bottom: 3rem;
+.line-1, .line-2, .line-3{
+	padding-bottom: 1rem;
 }
 
 .search-bar, .btn-search{
@@ -88,6 +88,9 @@
 	}
 
 	}*/
+	@media only screen and (max-width: 320px){
+		
+	}
 
 	@media only screen and (max-width: 420px){
 
@@ -121,27 +124,42 @@
 			font-size: 75%;
 		}
 
-		footer{
+		/*footer{
 			clear: both;
 			position: relative;
-			/*margin-top: 400px;*/
+			margin-top: 400px;
+			}*/
+
+			.social-links{
+				font-size: 2rem;
+			}
+
+			.resize-me .img-box{
+				max-width: 100%;
+				max-height: 100%;
+				padding: 0.3rem 0.3rem;
+			}
 		}
 
-		.social-links{
-			font-size: 2rem;
-		}
+		@media only screen and (max-width: 800px){
+			.img-box{
+				max-width: 100%;
+				max-height: auto;
+				padding: 0.5rem 0.5rem;
+			}
 
-		.resize-me .img-box{
-			max-width: 100%;
-			max-height: auto;
-			padding: 1rem 1rem;
-		}
-	}
+			.resize-me .img-box{
+				max-width: 100%;
+				max-height: 100%;
+				/*overflow: auto;*/
+				/*padding: 0.5rem 0.5rem;*/
+				/*border: 1px solid red;*/
 
-	@media only screen and (max-width: 800px){
-		.img-box{
-			max-width: 100%;
-			max-height: auto;
-			padding: 1rem 1rem;
+			}
+
+			.resize-me{
+				height: 148px;
+				width: 248px;
+				margin: 0 auto;
+			}
 		}
-	}
