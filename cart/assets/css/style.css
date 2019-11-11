@@ -76,7 +76,12 @@
 	border-radius: 50px;
 }
 
-
+@media only screen and (max-width: 320px){
+	.cpr, .disclaimer{
+		font-size: 10px;
+		float: left;
+	}
+}
 
 @media only screen and (max-width: 376px){
 	footer span{
@@ -116,8 +121,8 @@
 	}
 
 	.page-header {
-    text-align: left;
-  }
+		text-align: left;
+	}
 }
 
 @media only screen and (max-width: 801px){

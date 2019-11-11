@@ -52,12 +52,37 @@
 }
 
 .card img{
-		height: 180px;
-		width: auto;
+	height: 180px;
+	width: auto;
 }
 
 .search-bar, .btn-search{
 	border-radius: 50px;
+}
+
+@media only screen and (max-width: 320px){
+	.best-sellers .carousel-inner .fade-down img{
+		width: 100px;
+		margin: 0 auto;
+	}
+
+	.best-sellers{
+		margin: 0 auto;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		height: 15px;
+		width: 15px;
+		outline: black;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 50%;
+	}
+
+	.carousel-item{
+		width: 300px
+		height: auto;
+	}
+
 }
 
 @media only screen and (max-width: 376px){
@@ -109,33 +134,54 @@
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-		height: 30px;
-		width: 30px;
+	height: 30px;
+	width: 30px;
+	outline: black;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+}
+
+.carousel-inner img{
+	max-width: 650px;
+	max-height: 325px;
+	margin: 0 auto;
+}
+
+.carousel{
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	background-color: #000;
+	opacity: 70%;
+	width: 650px;
+	height: 325px;
+}
+
+.carousel-caption{
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-size: 12px;
+}
+
+@media only screen and (max-width: 320px){
+	.best-sellers{
+		margin: 0 -1.3rem;
+		/*width: 100px;*/
+	}
+
+	.cpr, .disclaimer{
+		font-size: 10px;
+		float: left;
+	}
+
+	.carousel-control-prev-icon, .carousel-control-next-icon {
+		height: 15px;
+		width: 15px;
 		outline: black;
 		background-color: rgba(0, 0, 0, 0.3);
 		border-radius: 50%;
 	}
 
-	.carousel-inner img{
-		max-width: 650px;
-		max-height: 325px;
-		margin: 0 auto;
-	}
-
-	.carousel{
-		margin: 0 auto;
-		/*border: 1px solid red;*/
-		background-color: #000;
-		opacity: 70%;
-		width: 650px;
-		height: 325px;
-	}
-
-	.carousel-caption{
-		color: white;
-		text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-		font-size: 12px;
-	}
+}
 
 
 
@@ -204,7 +250,7 @@
 		font-size: 2rem;
 	}
 
-		.carousel-control-prev-icon, .carousel-control-next-icon {
+	.carousel-control-prev-icon, .carousel-control-next-icon {
 		height: 30px;
 		width: 30px;
 		outline: black;

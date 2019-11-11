@@ -88,8 +88,12 @@
 	}
 
 	}*/
+
 	@media only screen and (max-width: 320px){
-		
+		.cpr, .disclaimer{
+			font-size: 10px;
+			float: left;
+		}
 	}
 
 	@media only screen and (max-width: 420px){
@@ -101,6 +105,8 @@
 		.social-links{
 			font-size: 10px;
 		}
+
+
 
 		.resize-me .img-box{
 			max-width: 100%;
